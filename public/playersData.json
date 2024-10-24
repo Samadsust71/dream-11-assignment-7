@@ -1,0 +1,154 @@
+
+[
+    {
+      "playerId": "1",
+      "name": "Virat Kohli",
+      "country": "India",
+      "image": "https://c7.alamy.com/comp/2XAYAPW/eisenhower-park-united-states-09th-june-2024-virat-kohli-of-india-reacts-and-makes-his-way-off-the-field-after-being-dismissed-during-the-india-vs-pakistan-match-in-group-a-at-the-icc-mens-t20-world-cup-2024-at-nassau-county-international-cricket-stadium-at-eisenhower-park-on-sunday-june-9-2024-in-new-york-the-icc-mens-t20-world-cup-2024-winners-will-receive-the-highest-amount-in-the-tournaments-history-photo-by-john-angelilloupi-credit-upialamy-live-news-2XAYAPW.jpg",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm medium",
+      "biddingPrice": 2200000
+    },
+    {
+      "playerId": "2",
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "image": "https://c7.alamy.com/comp/2JDMK67/new-zealands-kane-williamson-during-a-nets-session-at-emerald-headingley-stadium-leeds-picture-date-wednesday-june-22-2022-2JDMK67.jpg",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": 1800000
+    },
+    {
+      "playerId": "3",
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "image": "https://c7.alamy.com/comp/2GH4M6N/sydney-australia-27-november-2020-jasprit-bumrah-of-india-during-the-dettol-odi-series-cricket-match-between-australia-and-india-at-sydney-cricket-ground-on-november-27-2020-in-sydney-australia-credit-steven-markhamspeed-mediaalamy-live-news-2GH4M6N.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 2000000
+    },
+    {
+      "playerId": "4",
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "image": "https://c7.alamy.com/comp/2GH4MTT/sydney-australia-27-november-2020-pat-cummins-of-australia-during-the-dettol-odi-series-cricket-match-between-australia-and-india-at-sydney-cricket-ground-on-november-27-2020-in-sydney-australia-credit-steven-markhamspeed-mediaalamy-live-news-2GH4MTT.jpg",
+      "role": "All-rounder",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 2500000
+    },
+    {
+      "playerId": "5",
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "image": "https://c7.alamy.com/comp/2G865N9/pakistans-babar-azam-during-the-twenty20-international-match-at-trent-bridge-nottingham-picture-date-friday-july-16-2021-2G865N9.jpg",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": 2300000
+    },
+    {
+      "playerId": "6",
+      "name": "Ben Stokes",
+      "country": "England",
+      "image": "https://c7.alamy.com/comp/2GXMA1H/englands-ben-stokes-2GXMA1H.jpg",
+      "role": "All-rounder",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm medium",
+      "biddingPrice": 2700000
+    },
+    {
+      "playerId": "7",
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "image": "https://c7.alamy.com/comp/EH6H6R/napier-new-zealand-08th-mar-2015-trent-boult-during-the-icc-cricket-EH6H6R.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Left-arm fast-medium",
+      "biddingPrice": 1900000
+    },
+    {
+      "playerId": "8",
+      "name": "David Warner",
+      "country": "Australia",
+      "image": "https://c7.alamy.com/comp/M54C2F/auckland-new-zealand-20th-feb-2018-australia-captain-david-warner-M54C2F.jpg",
+      "role": "Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": 2100000
+    },
+    {
+      "playerId": "9",
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "image": "https://c7.alamy.com/comp/2KK321F/kandy-sri-lanka-25th-november-2022-afghanistans-rashid-khan-walks-back-to-the-pavilion-after-his-dismissal-during-the-1st-odi-cricket-match-between-sri-lanka-vs-afghanistan-at-the-pallekele-international-cricket-stadium-in-kandy-on-25th-november-2022-viraj-kothalwalaalamy-live-news-2KK321F.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": 2300000
+    },
+    {
+      "playerId": "10",
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "image": "https://c7.alamy.com/comp/W22G94/london-uk-05th-july-2019-london-england-july-05-shakib-al-hasan-of-bangladesh-during-icc-cricket-world-cup-between-pakinstan-and-bangladesh-at-the-lords-ground-on-05-july-2019-in-london-england-credit-action-foto-sportalamy-live-news-W22G94.jpg",
+      "role": "All-rounder",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm orthodox",
+      "biddingPrice": 2400000
+    },
+    {
+      "playerId": "11",
+      "name": "Quinton de Kock",
+      "country": "South Africa",
+      "image": "https://c7.alamy.com/comp/P89WXD/galle-sri-lanka-10th-july-2018-quinton-de-kock-south-african-wicket-keeper-batsman-during-the-practices-session-on-10th-july-at-galle-international-cricket-stadium-ahead-of-the-1st-test-match-between-sri-lanka-on-12th-july-at-galle-international-cricket-stadium-in-galle-credit-sameera-peirispacific-pressalamy-live-news-P89WXD.jpg",
+      "role": "Wicketkeeper Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "N/A",
+      "biddingPrice": 2200000
+    },
+    {
+      "playerId": "12",
+      "name": "Andre Russell",
+      "country": "West Indies",
+      "image": "https://c7.alamy.com/comp/TD71Y1/west-indies-andre-russell-prepares-to-bat-during-the-nets-session-at-the-hampshire-bowl-southampton-TD71Y1.jpg",
+      "role": "All-rounder",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 2600000
+    },
+    {
+      "playerId": "13",
+      "name": "Mitchell Starc",
+      "country": "Australia",
+      "image": "https://c7.alamy.com/comp/TD7PM7/taunton-uk-12th-june-2019-mitchell-starc-of-australia-during-the-australia-v-pakistan-icc-cricket-world-cup-match-at-the-county-ground-taunton-credit-cal-sport-mediaalamy-live-news-TD7PM7.jpg",
+      "role": "Bowler",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm fast",
+      "biddingPrice": 2400000
+    },
+    {
+      "playerId": "14",
+      "name": "Faf du Plessis",
+      "country": "South Africa",
+      "image": "https://c7.alamy.com/comp/W299CY/manchester-england-06-july-2019-faf-du-plessis-of-south-africa-celebrates-scoring-a-century-during-the-australia-v-south-africa-icc-cricket-world-cup-match-at-old-trafford-manchester-england-W299CY.jpg",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": 2000000
+    },
+    {
+      "playerId": "15",
+      "name": "KL Rahul",
+      "country": "India",
+      "image": "https://c7.alamy.com/comp/2RT6XJN/colombo-sri-lanka-11th-september-2023-indias-kl-rahul-plays-a-shot-during-the-asia-cup-2023-super-four-one-day-international-odi-cricket-match-between-india-and-pakistan-at-the-premadasa-stadium-in-colombo-on-11th-september-2023-viraj-kothalwalaalamy-live-news-2RT6XJN.jpg",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": 2500000
+    }
+  ]
+  

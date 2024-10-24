@@ -1,14 +1,23 @@
-
-
+import Header from "./assets/Components/Header/Header";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  
-
   return (
     <>
-      <h1 className='bg-red-500 btn'>Dream 11</h1>
+      <Header />
+
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        closeOnClick={true}
+        pauseOnHover={false}
+        draggable={true}
+        theme="light"
+      />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
