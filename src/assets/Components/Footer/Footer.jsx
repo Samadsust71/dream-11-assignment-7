@@ -2,7 +2,7 @@ import FooterLogo from "../../Images/logo-footer.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-black py-10 lg:py-16 text-gray-200 relative">
+    <footer className="bg-black pb-10 pt-80 text-gray-200 mt-32">
       <div className="flex justify-center items-center">
         <img src={FooterLogo} alt="footer-logo" />
       </div>
@@ -16,14 +16,14 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-bold">Quick links</h1>
-         <div className="mt-6 pl-6">
-         <ul className="flex flex-col list-disc text-gray-400 space-y-2">
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-         </div>
+          <div className="mt-6 pl-6">
+            <ul className="flex flex-col list-disc text-gray-400 space-y-2">
+              <li>Home</li>
+              <li>Services</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </div>
         </div>
         <div>
           <h1 className="font-bold">Subscribe</h1>

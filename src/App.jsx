@@ -4,21 +4,20 @@ import "react-toastify/dist/ReactToastify.css";
 import MainContent from "./assets/Components/MainContent/MainContent";
 import Footer from "./assets/Components/Footer/Footer";
 import { useState } from "react";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 
 function App() {
-
   const [coin, setCoin] = useState(0);
-  const handleFreeCredit= ()=>{
-    setCoin(coin+5000000)
-    toast.success('Free Credit Claimed Successfully!');
-  }
-  const moneyCount = (playerPrice)=>setCoin(coin-playerPrice)
-    
+  const handleFreeCredit = () => {
+    setCoin(coin + 500000);
+    toast.success("Free Credit Claimed Successfully!");
+  };
+  const moneyCount = (playerPrice) => setCoin(coin - playerPrice);
 
   return (
     <>
       <Header handleFreeCredit={handleFreeCredit} coin={coin} />
+
       <MainContent moneyCount={moneyCount} coin={coin} />
 
       <Footer />

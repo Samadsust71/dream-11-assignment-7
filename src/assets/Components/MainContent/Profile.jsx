@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'; 
 
 const Profile = ({ profile,handlePlayerSelection }) => {
-  const {name, country, image, role, battingType, bowlingType, biddingPrice } =
+  const {name, country, image, role, battingType, bowlingType, biddingPrice,rating } =
     profile;
   return (
     <div>
@@ -27,13 +27,13 @@ const Profile = ({ profile,handlePlayerSelection }) => {
             <p className="bg-base-300 px-3 py-2 rounded-lg">{role}</p>
           </div>
           <hr />
-          <p>Rating</p>
-          <div className="flex justify-between items-center">
-            <span>{battingType}</span>
-            <span>{bowlingType?bowlingType:'Not Available'}</span>
+          <p><span className=' text-black'>Rating :</span> {rating}</p>
+          <div className="flex flex-col gap-4">
+            <p><span className=' text-black'>Batting Style : </span> {battingType}</p>
+            <p><span className=' text-black'>Bowling Style : </span>{bowlingType?bowlingType:'Not Available'}</p>
           </div>
           <div className="flex justify-between items-center">
-            <span>Price : ${biddingPrice}</span>
+            <p> <span className='text-black'>Price :</span> ${biddingPrice}</p>
             <button onClick={()=>handlePlayerSelection(profile)} className="btn px-4 py-2 rounded-md border bg-white">
               Choose player
             </button>
