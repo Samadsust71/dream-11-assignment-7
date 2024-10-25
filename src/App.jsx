@@ -10,21 +10,16 @@ function App() {
 
   const [coin, setCoin] = useState(0);
   const handleFreeCredit= ()=>{
-    setCoin(coin+1000000)
+    setCoin(coin+5000000)
     toast.success('Free Credit Claimed Successfully!');
   }
-  const moneyCount = (playerPrice=0)=>{
-    if (playerPrice<=coin) {
-      setCoin(coin-playerPrice)
-    }
-    else {
-     return toast.warn("You do not have enough money")
-    }
-}
+  const moneyCount = (playerPrice)=>setCoin(coin-playerPrice)
+    
+
   return (
     <>
       <Header handleFreeCredit={handleFreeCredit} coin={coin} />
-      <MainContent moneyCount={moneyCount} />
+      <MainContent moneyCount={moneyCount} coin={coin} />
 
       <Footer />
 

@@ -1,8 +1,10 @@
+import PropTypes from 'prop-types'; 
+
 const Profile = ({ profile,handlePlayerSelection }) => {
-  const {playerId, name, country, image, role, battingType, bowlingType, biddingPrice } =
+  const {name, country, image, role, battingType, bowlingType, biddingPrice } =
     profile;
   return (
-    <div className="">
+    <div>
 
       <div className="border p-5 space-y-6 rounded-xl">
         <figure className="">
@@ -43,3 +45,8 @@ const Profile = ({ profile,handlePlayerSelection }) => {
 };
 
 export default Profile;
+
+Profile.propTypes={
+    profile:PropTypes.object,
+    handlePlayerSelection:PropTypes.func,  
+  }

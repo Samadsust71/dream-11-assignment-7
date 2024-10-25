@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'; 
 import logo from "../../Images/logo.png";
 import coinIcon from "../../Images/coin.png";
 import BGimage from "../../Images/bg-shadow.png";
@@ -111,3 +112,8 @@ const Header = ({handleFreeCredit,coin}) => {
 };
 
 export default Header;
+
+Header.propTypes={
+  handleFreeCredit:PropTypes.func,
+  coin:PropTypes.number  
+}

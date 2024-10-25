@@ -7,3 +7,13 @@
 body{
     font-family: "Sora", sans-serif;
 }
+.active{
+    background-color: #E7FE29;
+    color:#131313;
+    font-weight: 700;
+}
+.deActive{
+    background-color: #FFFFFF;
+    color:rgba(19, 19, 19, 0.6);
+    font-weight: 400;
+}
