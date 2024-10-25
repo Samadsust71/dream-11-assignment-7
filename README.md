@@ -56,4 +56,4 @@ This project is licensed under the Dream11 by Samad Reza License.
 
 ## Live Link
 
-`https://dream11play.netlify.app/`
+https://dream11play.netlify.app/
