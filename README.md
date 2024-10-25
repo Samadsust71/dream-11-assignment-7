@@ -55,3 +55,5 @@ The project leverages modern JavaScript features for cleaner and more efficient 
 This project is licensed under the Dream11 by Samad Reza License.
 
 ## Live Link
+
+`https://dream11play.netlify.app/`
