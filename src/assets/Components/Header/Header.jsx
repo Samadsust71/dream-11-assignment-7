@@ -2,15 +2,10 @@ import logo from "../../Images/logo.png";
 import coinIcon from "../../Images/coin.png";
 import BGimage from "../../Images/bg-shadow.png";
 import BannerImage from "../../Images/banner-main.png";
-import { useState } from "react";
-import { toast } from 'react-toastify';
 
-const Header = () => {
-  const [coin, setCoin] = useState(0);
-  const handleFreeCredit= ()=>{
-    setCoin(coin+1000000)
-    toast.success('Free Credit Claimed Successfully!');
-  }
+
+const Header = ({handleFreeCredit,coin}) => {
+ 
   return (
     <div className="w-11/12 mx-auto">
       {/* navbar starts */}
