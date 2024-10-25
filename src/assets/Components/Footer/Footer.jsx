@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex justify-center items-center">
         <img src={FooterLogo} alt="footer-logo" />
       </div>
-      <section className="w-11/12 mx-auto flex flex-col lg:flex-row justify-between items-center space-y-6 my-6">
+      <section className="w-11/12 mx-auto flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-6 my-6">
         <div className="lg:w-[30%]">
           <h1 className="font-bold">About Us</h1>
           <p className="text-gray-400 mt-6">
@@ -16,12 +16,14 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-bold">Quick links</h1>
-          <ul className="flex flex-col list-disc mt-6 text-gray-400 space-y-2">
+         <div className="mt-6 pl-6">
+         <ul className="flex flex-col list-disc text-gray-400 space-y-2">
             <li>Home</li>
             <li>Services</li>
             <li>About</li>
             <li>Contact</li>
           </ul>
+         </div>
         </div>
         <div>
           <h1 className="font-bold">Subscribe</h1>
