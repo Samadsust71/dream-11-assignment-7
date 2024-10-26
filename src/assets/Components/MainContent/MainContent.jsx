@@ -59,7 +59,7 @@ const MainContent = ({ moneyCount, coin }) => {
   return (
     <main className="w-11/12 mx-auto py-10 mt-4">
       <div className="mb-52">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center">
           <h1 className="text-[#131313] font-bold text-2xl">
             {isActive
               ? "Available Players"
@@ -86,7 +86,7 @@ const MainContent = ({ moneyCount, coin }) => {
         </div>
         <div className="my-6">
           {isActive ? (
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {playerProfile.map((profile, idx) => (
                 <Profile
                   key={idx}

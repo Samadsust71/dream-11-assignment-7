@@ -92,7 +92,7 @@ const Header = ({handleFreeCredit,coin}) => {
       >
         <div className=" flex flex-col justify-center items-center space-y-6">
           <img src={BannerImage} alt="" className="border-2 border-dashed border-gray-400" />
-          <h1 className="mb-5 text-2xl lg:text-4xl font-bold text-white">
+          <h1 className="mb-5 text-2xl lg:text-4xl font-bold text-white text-center">
             Assemble Your Ultimate Dream 11 Cricket Team
           </h1>
           <p className="mb-5 lg:text-2xl text-[#ffffffb3]">
