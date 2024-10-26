@@ -48,9 +48,6 @@ The project leverages modern JavaScript features for cleaner and more efficient 
 - Integrate user login functionality for more personalization.
 - Add more dynamic stats and information about players.
 
-## License
-
-This project is licensed under the Dream11 by Samad Reza License.
 
 ## Live Link
 
