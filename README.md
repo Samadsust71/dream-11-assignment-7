@@ -1,8 +1,6 @@
-# DREAM 11
+# Project Title : DREAM 11
 
-### Welcome to the DREAM 11 Fantasy Team Selection App!
-
-This React-based application allows users to select and manage a cricket team by selecting players based on their budget, inspired by Dream 11. The app simulates real-world player bidding and team selection, making it fun and interactive.
+This application allows users to select and manage a cricket team by selecting players based on their budget. The app simulates real-world player bidding and team selection, making it fun and interactive.
 
 ## Project Overview
 
