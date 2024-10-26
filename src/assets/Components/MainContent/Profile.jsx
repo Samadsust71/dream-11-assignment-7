@@ -15,26 +15,26 @@ const Profile = ({ profile,handlePlayerSelection }) => {
           />
         </figure>
         <div className="space-y-4">
-          <h2 className="flex items-center gap-1">
+          <h2 className="flex items-center gap-2 font-semibold text-xl text-[#131313]">
             <i className="fa-solid fa-user"></i>
             <span>{name}</span>
           </h2>
           <div className="flex justify-between items-center">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 text-gray-400">
               <i className="fa-solid fa-flag"></i>
               <span>{country}</span>
             </div>
             <p className="bg-base-300 px-3 py-2 rounded-lg">{role}</p>
           </div>
           <hr />
-          <p><span className=' text-black'>Rating :</span> {rating}</p>
+          <p><span className='font-semibold text-[#131313]'>Rating :</span> {rating}</p>
           <div className="flex flex-col gap-4">
-            <p><span className=' text-black'>Batting Style : </span> {battingType}</p>
-            <p><span className=' text-black'>Bowling Style : </span>{bowlingType?bowlingType:'Not Available'}</p>
+            <p><span className='font-semibold text-[#131313]'>Batting Style : </span> {battingType}</p>
+            <p><span className='font-semibold text-[#131313]'>Bowling Style : </span>{bowlingType?bowlingType:'Not Available'}</p>
           </div>
           <div className="flex justify-between items-center">
-            <p> <span className='text-black'>Price :</span> ${biddingPrice}</p>
-            <button onClick={()=>handlePlayerSelection(profile)} className="btn px-4 py-2 rounded-md border bg-white">
+            <p> <span className='font-semibold text-[#131313]'>Price :</span> ${biddingPrice}</p>
+            <button onClick={()=>handlePlayerSelection(profile)} className="px-4 py-2 rounded-md border bg-white text-[#131313] hover:bg-base-300 transition duration-100">
               Choose player
             </button>
           </div>

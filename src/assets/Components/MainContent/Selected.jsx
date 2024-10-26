@@ -4,13 +4,13 @@ const Selected = ({ selected, handleRemovePlayer }) => {
   const { playerId, name, image, role } = selected;
   return (
     <div>
-      <div className="flex justify-between items-center bg-base-200 p-6 rounded-xl my-6">
+      <div className="flex justify-between items-center border p-6 rounded-2xl my-6">
         <div className="flex items-center gap-6">
-          <img src={image} alt={name} className="h-14 w-14 rounded-full object-cover" />
+          <img src={image} alt={name} className="h-14 w-14 rounded-2xl object-cover" />
 
           <div>
-            <h3 className="text-black font-bold">{name}</h3>
-            <p>{role}</p>
+            <h3 className="text-[#131313] font-bold">{name}</h3>
+            <p className='text-gray-400'>{role}</p>
           </div>
         </div>
         <button

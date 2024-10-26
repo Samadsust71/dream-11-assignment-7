@@ -25,7 +25,7 @@ const Newsletter = ({isActive}) => {
 
     localStorage.setItem('newsletterEmail', email);
     setIsSubscribed(true);
-    toast.success(`Thank you for subscribing!`);
+    toast.success(`Thank you ${email} for subscribing!`);
   };
 
   const handleInputChange = (e) => {
@@ -41,7 +41,7 @@ const Newsletter = ({isActive}) => {
          >
       <div className="max-w-2xl mx-auto text-center">
         {isSubscribed ? (
-          <h2 className="text-2xl text-black font-bold mb-4">Thank You For Subscription!</h2>
+          <h2 className="text-2xl text-black font-bold mb-4">WelCome to the Dream11 Website!</h2>
         ) : (
           <>
             <h2 className="text-2xl font-bold mb-4">Subscribe to our Newsletter</h2>
@@ -57,7 +57,7 @@ const Newsletter = ({isActive}) => {
                 onChange={handleInputChange}
               />
               <button
-                className="px-6 py-2 bg-gradient-to-r from-yellow-400 to-pink-500 text-white rounded-lg hover:from-yellow-500 hover:to-pink-600 transition duration-300"
+                className="px-6 py-2 bg-gradient-to-l from-yellow-400 to-pink-500 text-white rounded-lg hover:from-yellow-500 hover:to-pink-600 transition duration-300"
                 onClick={handleSubscribe}
               >
                 Subscribe
