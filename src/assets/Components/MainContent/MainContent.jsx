@@ -107,7 +107,7 @@ const MainContent = ({ moneyCount, coin }) => {
               ))}
             </div>
           )}
-          {selected.length && !isActive ? (
+          {!isActive ? (
             <button
               onClick={handleAvailable}
               className="px-4 py-2 border rounded-lg active"

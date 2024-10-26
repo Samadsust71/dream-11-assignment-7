@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'; 
 
 const Selected = ({ selected, handleRemovePlayer }) => {
-  const { playerId, name, image, role } = selected;
+  const { playerId, name, image, role,biddingPrice } = selected;
   return (
     <div>
       <div className="flex justify-between items-center border p-6 rounded-2xl my-6">
@@ -10,7 +10,8 @@ const Selected = ({ selected, handleRemovePlayer }) => {
 
           <div>
             <h3 className="text-[#131313] font-bold">{name}</h3>
-            <p className='text-gray-400'>{role}</p>
+            <p >{role}</p>
+            <p>Price : ${biddingPrice}</p>
           </div>
         </div>
         <button
