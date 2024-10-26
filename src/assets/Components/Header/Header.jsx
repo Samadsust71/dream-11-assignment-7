@@ -8,7 +8,7 @@ import BannerImage from "../../Images/banner-main.png";
 const Header = ({handleFreeCredit,coin}) => {
  
   return (
-    <div className="w-11/12 mx-auto">
+    <div className="w-11/12 mx-auto mt-6">
       {/* navbar starts */}
       <div className="navbar bg-base-100">
         <div className="navbar-start">

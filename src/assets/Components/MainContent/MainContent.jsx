@@ -54,6 +54,7 @@ const MainContent = ({ moneyCount, coin }) => {
   const handleRemovePlayer = (id) => {
     const remaingPlayer = selected.filter((player) => player.playerId !== id);
     setSelected(remaingPlayer);
+    toast.warn('Player removed')
   };
 
   return (
