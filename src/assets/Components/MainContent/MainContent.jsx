@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Profile from "./Profile";
 import Selected from "./Selected";
 import { toast } from "react-toastify";
-import Newsletter from "../NewsLetter/NewsLetter";
 
 const MainContent = ({ moneyCount, coin }) => {
   const [playerProfile, setPlayerProfile] = useState([]);
@@ -58,8 +57,8 @@ const MainContent = ({ moneyCount, coin }) => {
   };
 
   return (
-    <main className="w-11/12 mx-auto py-10 relative">
-      <div className="mb-64 min-h-fit">
+    <main className="w-11/12 mx-auto py-10 mt-4">
+      <div className="mb-52">
         <div className="flex justify-between items-center">
           <h1 className="text-[#131313] font-bold text-2xl">
             {isActive
@@ -119,8 +118,6 @@ const MainContent = ({ moneyCount, coin }) => {
           )}
         </div>
       </div>
-      {/* news letter section */}
-      <Newsletter isActive={isActive} />
     </main>
   );
 };

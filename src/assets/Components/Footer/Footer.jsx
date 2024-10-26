@@ -1,8 +1,10 @@
 import FooterLogo from "../../Images/logo-footer.png";
+import Newsletter from "../NewsLetter/NewsLetter";
 
 const Footer = () => {
   return (
-    <footer className="bg-black pb-10 pt-80 text-gray-200 mt-32">
+    <footer className="bg-black pb-10 pt-80 lg:pt-72 text-gray-200 mt-32 relative">
+      <Newsletter/>
       <div className="flex justify-center items-center mb-6">
         <img src={FooterLogo} alt="footer-logo" className="border-2 border-dashed border-gray-400" />
       </div>

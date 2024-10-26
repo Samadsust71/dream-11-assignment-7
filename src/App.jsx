@@ -9,7 +9,7 @@ import { toast } from "react-toastify";
 function App() {
   const [coin, setCoin] = useState(0);
   const handleFreeCredit = () => {
-    setCoin(coin + 500000);
+    setCoin(coin + 1000000);
     toast.success("Free Credit Claimed Successfully!");
   };
   const moneyCount = (playerPrice) => setCoin(coin - playerPrice);

@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import bgimage from "../../Images/bg-shadow.png"
-import PropTypes from 'prop-types'; 
 
 
-const Newsletter = ({isActive}) => {
+
+const Newsletter = () => {
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
 
@@ -31,10 +31,10 @@ const Newsletter = ({isActive}) => {
   const handleInputChange = (e) => {
     setEmail(e.target.value);
   };
- 
+
   return (
-    <div className={`z-50 w-11/12 mx-auto rounded-xl p-6 border bg-[#ffffff4d] bg-opacity-50 absolute left-[5%] ${isActive?'top-[98%]':'top-[92%]' } `}>
-        <div className="rounded-xl text-black bg-center bg-cover bg-no-repeat py-32 z-50 bg-orange-50"
+    <div className="z-50 w-11/12 mx-auto rounded-xl p-6 border bg-[#ffffff4d] bg-opacity-50 absolute inset-x-[4%] bottom-[75%]">
+        <div className="rounded-xl text-black bg-center bg-cover bg-no-repeat py-32  bg-orange-50"
          style={{
             backgroundImage: `url(${bgimage})`,
           }}
@@ -48,10 +48,10 @@ const Newsletter = ({isActive}) => {
             <p className="text-lg mb-6">
               Get the latest updates and news right in your inbox!
             </p>
-            <div className="flex justify-center space-x-4">
+            <div className="flex flex-col gap-4 md:flex-row  justify-center">
               <input
                 type="email"
-                className="px-4 py-2 w-2/3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                className="px-4 py-2 w-full border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500"
                 placeholder="Enter your email"
                 value={email}
                 onChange={handleInputChange}
@@ -71,8 +71,4 @@ const Newsletter = ({isActive}) => {
   );
 };
 
-export default Newsletter;
-Newsletter.propTypes={
-    isActive:PropTypes.bool,
-     
-  }
+export default Newsletter
