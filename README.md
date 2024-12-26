@@ -1,5 +1,10 @@
 # Project Title : DREAM 11
 
+## Live Link
+
+https://dream11play.netlify.app
+
+
 This application allows users to select and manage a cricket team by selecting players based on their budget. The app simulates real-world player bidding and team selection, making it fun and interactive.
 
 ## Project Overview
@@ -49,6 +54,4 @@ The project leverages modern JavaScript features for cleaner and more efficient 
 - Add more dynamic stats and information about players.
 
 
-## Live Link
 
-https://dream11play.netlify.app/
